@@ -20,6 +20,16 @@ OMS
 Uber Toolchains
 Pixel Launcher 
 
+Installation instructions:
+-- Caosp only supports TWRP recovery. Use any other recovery at your own risk.
+-- Caosp only supports our compiled kernel. We will not provide support for those using custom kernels.
+
+* -- Ensure the latest version of TWRP for Motorola Nexus 6 [shamu] is installed.
+* -- [required] Factory reset (if official Caosp is not currently installed)
+* -- [required] Install ROM
+*-- [optional] Install GApps
+*-- [optional] Install Magisk (Caosp does not ship rooted builds)
+*-- [required] Reboot to system
 
 Links:
 Source Link: https://github.com/CleanAosp-O

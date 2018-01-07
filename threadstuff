@@ -1,25 +1,39 @@
 [CENTER][IMG]http://i65.tinypic.com/10yp5bq.jpg[/IMG][/CENTER]
 
 
-[CENTER][FONT="Franklin Gothic Medium"][SIZE="4"]Welcome To Clean AOSP[/SIZE][/FONT][/CENTER]
+[CENTER][FONT="Franklin Gothic Medium"][SIZE="4"]Welcome To [B]<!--[URL="OurBuildList"]-->[SIZE="5"]Clean AOSP[/URL][/B] [I]Oreo 8.1.x[/SIZE][/I][/SIZE][/FONT][/CENTER]
+<!--                           Divider               -->
 
-Who we are.
+[U]Who we are[/U]:
 Just two guys who want the best possible AOSP Rom 
-Bthorne79 
-Joryb
+@Bthorne79 
+@Joryb
 
-Here we go
+[U]Here we go[/U]
 Q: What is Clean AOSP?
 A: Exactly what is says...  Android Open Source built rom
 Q: Can you add this......Can you add that....
 A: No we won't 
+Q: What if I find a bug?
+A: Please report it to us.
 
-About Rom
-Aosp compiled 
-OMS
+[U]Devices Supported[/U]:
+Motorola Nexus 6, [I}Shamu[/I]
+
+[U]About Rom[/U]:
+Android Oreo 8.1.0_r7 not rooted[SIZE="2"](works fine with no root or use what you want for root)[/SIZE]
+Aosp Compiled
+Deodexed
+Kernel 3.10.108
+Launcher 3/Pixel Launcher
+Notification Lights
+Oreo Sounds
+Stock OMS
 Uber Toolchains
-Pixel Launcher 
+WireGuard Secure VPN Integrated into Kernel
 
+<!--                           Divider               -->
+[B][U]Disclaimer[/B][/U]:
 /*
  * Your warranty is now void.
  *
@@ -29,21 +43,39 @@ Pixel Launcher
  * before flashing it! YOU are choosing to make these modifications, and if
  * you point the finger at me for messing up your device, I will laugh at you. Hard. A lot.
  */
+<!--                           Divider               -->
+[SIZE="5"][U][B]Oreo Downloads[/U][/B]:
+[SIZE="4"][FONT="Impact"][B]ROM[/B]: [URL=""]caosp_shamu-8.1.0-2018MMDD-OFFICIAL.zip[/FONT][/SIZE][/URL]
+[SIZE="4"][FONT="Impact"][B]Md5sum[/B]: [URL=""]caosp_shamu-8.1.0-2018MMDD-OFFICIAL.zip.md5sum[/FONT][/SIZE][/URL]
+[SIZE="4"][FONT="Impact"][B]Gapps[/B]: [URL=""]open_gapps-arm-8.1.0-2018MMDD.zip[/FONT][/SIZE][/URL]
 
-Installation instructions:
--- Caosp only supports TWRP recovery. Use any other recovery at your own risk.
+[SIZE="4"][U]Installation instructions[/U]:[/SIZE]
+-- Caosp only supports TWRP recovery 3.1+ . Use any other recovery at your own risk.
 -- Caosp only supports our compiled kernel. We will not provide support for those using custom kernels.
+-- Caosp only supports our Android Oreo 8.1.0 OpenGApps
+[LIST]
+[*]* -- Ensure the latest version of [URL="https://dl.twrp.me/shamu/"]TWRP[/URL] for Motorola Nexus 6 [shamu] is installed.
+[*]* -- [required] Factory reset (if official Caosp is not currently installed)
+[*]* -- [required] Install ROM
+[*]  *-- [optional] Install GApps
+[*]  *-- [optional] Before flashing a Root zip, boot into the system, restore, and login to snapchat or any other app 
+[*]                 that will not work on a rooted device, then Power off, Boot Recovery and flash root.
+[*]  *-- [optional] Install Magisk (Caosp does not ship rooted builds)
+[*]* -- [required] Reboot System
+[/LIST]
+<!--                           Divider               -->
 
-* -- Ensure the latest version of TWRP for Motorola Nexus 6 [shamu] is installed.
-* -- [required] Factory reset (if official Caosp is not currently installed)
-* -- [required] Install ROM
-*-- [optional] Install GApps
-*-- [optional] Install Magisk (Caosp does not ship rooted builds)
-*-- [required] Reboot to system
+[U]Links[/U]:
+Source Link: [URL=""]https://github.com/CleanAosp-O[/URL]
 
-Links:
-Source Link: https://github.com/CleanAosp-O
+[U]Version Information[/U]:
+ROM Version: 8.1.x Oreo
+Based On: AOSP
+Status: WIP/Testing
 
-[SIZE="3"][FONT="Impact"]ROM:[/FONT][/SIZE]
-[SIZE="3"][FONT="Impact"]Gapps:[/FONT][/SIZE]
- 
+Oreo Created: YYYY-MM-DD
+Last Updated: YYYY-MM-DD
+
+Thanks to AOSP, Lineage, DitryUnicorns, Team OctOS, BeansTown106, DespairFactor and any other group or person who took the 
+time to provide the tools and source/commits to help bring Clean AOSP Oreo to your Nexus 6 device. If I forgot anyone / group 
+and your name should be mentioned here let me know! 
